@@ -67,13 +67,13 @@ b = """
                            $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$"""
 
 i=1
-while i<5:
+while i<=4:
   os.system ('cls')
   print (a, end='\r')
   time.sleep (1)
 
   os.system('cls')
   print(b, end='\r')
-  time.sleep(2)
+  time.sleep(1)
   i=i+1
 
